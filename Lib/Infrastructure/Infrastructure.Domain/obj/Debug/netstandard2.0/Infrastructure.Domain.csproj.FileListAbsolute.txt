@@ -1,0 +1,8 @@
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\bin\Debug\netstandard2.0\Infrastructure.Domain.deps.json
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\bin\Debug\netstandard2.0\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\bin\Debug\netstandard2.0\Infrastructure.Domain.pdb
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\obj\Debug\netstandard2.0\Infrastructure.Domain.csprojAssemblyReference.cache
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\obj\Debug\netstandard2.0\Infrastructure.Domain.AssemblyInfoInputs.cache
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\obj\Debug\netstandard2.0\Infrastructure.Domain.AssemblyInfo.cs
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\obj\Debug\netstandard2.0\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Domain\obj\Debug\netstandard2.0\Infrastructure.Domain.pdb

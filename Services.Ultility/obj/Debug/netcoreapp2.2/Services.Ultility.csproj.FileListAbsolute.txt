@@ -1,0 +1,11 @@
+D:\Self\Development\dotnet\api_services\Services.Ultility\bin\Debug\netcoreapp2.2\Services.Ultility.deps.json
+D:\Self\Development\dotnet\api_services\Services.Ultility\bin\Debug\netcoreapp2.2\Services.Ultility.dll
+D:\Self\Development\dotnet\api_services\Services.Ultility\obj\Debug\netcoreapp2.2\Services.Ultility.csprojAssemblyReference.cache
+D:\Self\Development\dotnet\api_services\Services.Ultility\obj\Debug\netcoreapp2.2\Services.Ultility.csproj.CoreCompileInputs.cache
+D:\Self\Development\dotnet\api_services\Services.Ultility\obj\Debug\netcoreapp2.2\Services.Ultility.AssemblyInfoInputs.cache
+D:\Self\Development\dotnet\api_services\Services.Ultility\obj\Debug\netcoreapp2.2\Services.Ultility.AssemblyInfo.cs
+D:\Self\Development\dotnet\api_services\Services.Ultility\bin\Debug\netcoreapp2.2\Services.Ultility.pdb
+D:\Self\Development\dotnet\api_services\Services.Ultility\bin\Debug\netcoreapp2.2\McAfee.Utilities.SecurityProvider.dll
+D:\Self\Development\dotnet\api_services\Services.Ultility\obj\Debug\netcoreapp2.2\Services.Ultility.csproj.CopyComplete
+D:\Self\Development\dotnet\api_services\Services.Ultility\obj\Debug\netcoreapp2.2\Services.Ultility.dll
+D:\Self\Development\dotnet\api_services\Services.Ultility\obj\Debug\netcoreapp2.2\Services.Ultility.pdb

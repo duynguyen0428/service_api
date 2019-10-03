@@ -1,0 +1,3 @@
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\obj\Debug\netstandard2.0\Service.User.Data.csprojAssemblyReference.cache
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\obj\Debug\netstandard2.0\Service.User.Data.AssemblyInfoInputs.cache
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\obj\Debug\netstandard2.0\Service.User.Data.AssemblyInfo.cs

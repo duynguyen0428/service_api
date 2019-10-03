@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Application\\Service.User.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Application\\Service.User.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Application\\Service.User.Application.csproj",
+        "projectName": "Service.User.Application",
+        "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Application\\Service.User.Application.csproj",
+        "packagesPath": "C:\\Users\\dnguyen3\\.nuget\\packages\\",
+        "outputPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dnguyen3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Data\\Service.User.Data.csproj": {
+                "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Data\\Service.User.Data.csproj"
+              },
+              "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\Service.User.Domain.csproj": {
+                "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\Service.User.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Data\\Service.User.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Data\\Service.User.Data.csproj",
+        "projectName": "Service.User.Data",
+        "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Data\\Service.User.Data.csproj",
+        "packagesPath": "C:\\Users\\dnguyen3\\.nuget\\packages\\",
+        "outputPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dnguyen3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\Service.User.Domain.csproj": {
+                "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\Service.User.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\Service.User.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\Service.User.Domain.csproj",
+        "projectName": "Service.User.Domain",
+        "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\Service.User.Domain.csproj",
+        "packagesPath": "C:\\Users\\dnguyen3\\.nuget\\packages\\",
+        "outputPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dnguyen3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

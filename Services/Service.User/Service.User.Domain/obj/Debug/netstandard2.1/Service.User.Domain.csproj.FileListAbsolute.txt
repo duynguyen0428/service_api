@@ -1,0 +1,8 @@
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\bin\Debug\netstandard2.1\Service.User.Domain.deps.json
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\bin\Debug\netstandard2.1\Service.User.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\bin\Debug\netstandard2.1\Service.User.Domain.pdb
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\obj\Debug\netstandard2.1\Service.User.Domain.csprojAssemblyReference.cache
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\obj\Debug\netstandard2.1\Service.User.Domain.AssemblyInfoInputs.cache
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\obj\Debug\netstandard2.1\Service.User.Domain.AssemblyInfo.cs
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\obj\Debug\netstandard2.1\Service.User.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Domain\obj\Debug\netstandard2.1\Service.User.Domain.pdb
