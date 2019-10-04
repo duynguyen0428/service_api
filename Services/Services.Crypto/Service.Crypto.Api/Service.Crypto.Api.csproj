@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Service.Crypto.Data\Service.Crypto.Data.csproj" />
+    <ProjectReference Include="..\Service.Crypto.Domain\Service.Crypto.Domain.csproj" />
+    <ProjectReference Include="..\Service.Crypto.Application\Service.Crypto.Application.csproj" />
+  </ItemGroup>
+
+</Project>

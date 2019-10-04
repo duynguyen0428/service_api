@@ -1,0 +1,8 @@
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.csprojAssemblyReference.cache
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.AssemblyInfoInputs.cache
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.AssemblyInfo.cs
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\bin\Debug\netstandard2.0\Service.Crypto.Domain.deps.json
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\bin\Debug\netstandard2.0\Service.Crypto.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\bin\Debug\netstandard2.0\Service.Crypto.Domain.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.pdb

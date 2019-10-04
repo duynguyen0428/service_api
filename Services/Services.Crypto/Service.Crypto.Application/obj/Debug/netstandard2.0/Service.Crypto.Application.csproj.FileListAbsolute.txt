@@ -1,0 +1,15 @@
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.csprojAssemblyReference.cache
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.AssemblyInfoInputs.cache
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.AssemblyInfo.cs
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Service.Crypto.Application.deps.json
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Service.Crypto.Application.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Service.Crypto.Application.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Crypto.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Service.Crypto.Data.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Service.Crypto.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Crypto.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Service.Crypto.Data.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Service.Crypto.Domain.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.csproj.CopyComplete
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.pdb

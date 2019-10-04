@@ -1,8 +1,9 @@
 using System;
+using Service.Crypto.Domain;
 using MongoDB.Driver;
 namespace Service.Crypto.Data
 {
-    public class CryptoDbContext
+    public class CryptoDbContext : ICryptoDbContext
     {
         private readonly IMongoCollection<CryptoEntity> _cryptoCol;
         public CryptoDbContext(ICryptoDatabaseSettings settings)

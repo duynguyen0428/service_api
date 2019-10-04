@@ -1,18 +1,21 @@
 using System;
-namespace Service.Crypto.Data.Repository
+using Service.Crypto.Domain;
+using System.Collections.Generic;
+using MongoDB.Driver;
+namespace Service.Crypto.Data
 {
-    public class CryptoEntityRepository : ICrytoEntity
+    public class CryptoEntityRepository : ICryptoEntity
     {
         private readonly  IMongoCollection<CryptoEntity> _collection;
-        public CryptoEntityRepository(CryptoDbContext context)
+        public CryptoEntityRepository(ICryptoDbContext context)
         {
             _collection = context?.CryptoCol ?? throw new ArgumentException(nameof(context));
         }
-         public CrytoEntity GetCryto(Guid id) 
-            => _collection.Find(e=>e.ID == id).FirstOrDefault();
-         public IEnumerable<CrytoEntity> GetCryto(string mobileNo, int pin)
-            => _collection.Find(e=>e.Mobile_No == mobileNo && e.PIN == pin).FirstOrDefault();
-         public void AddEntity(CrytoEntity entity){
+        //  public CryptoEntity GetCryto(string id) 
+        //     => _collection.Find(e=>e.ID == id).FirstOrDefault();
+         public CryptoEntity GetCryto(string key)
+            => _collection.Find(e=>e.Key == key).FirstOrDefault();
+         public void AddEntity(CryptoEntity entity){
              _collection.InsertOne(entity);
          }
     }

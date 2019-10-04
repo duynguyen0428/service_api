@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Lib\Crypto\Crypto.csproj" />
+    <ProjectReference Include="..\Service.Crypto.Data\Service.Crypto.Data.csproj" />
+    <ProjectReference Include="..\Service.Crypto.Domain\Service.Crypto.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

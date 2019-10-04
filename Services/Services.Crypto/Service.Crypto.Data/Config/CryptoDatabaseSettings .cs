@@ -1,4 +1,4 @@
-namespace Service.Crypto.Data.Config
+namespace Service.Crypto.Data
 {
     public class CryptoDatabaseSettings : ICryptoDatabaseSettings
     {

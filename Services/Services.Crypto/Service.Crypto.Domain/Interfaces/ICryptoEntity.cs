@@ -4,9 +4,9 @@ namespace Service.Crypto.Domain
 {
     public interface ICryptoEntity
     {
-         CrytoEntity GetCryto(Guid id);
-         IEnumerable<CrytoEntity> GetCryto(string mobileNo, int pin);
-         void AddEntity(CrytoEntity entity);
+        //  CryptoEntity GetCryto(string id);
+         CryptoEntity GetCryto(string key);
+         void AddEntity(CryptoEntity entity);
 
     }
 }
