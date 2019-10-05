@@ -1,7 +1,10 @@
 using System;
 using Service.User.Domain;
 using Service.User.Data;
+using RabbitMQ.Client;
 using System.Collections.Generic;
+using System.Text;
+using Newtonsoft.Json;
 namespace Service.User.Application
 {
     public class UserServiceRepository : IUserService
@@ -34,6 +37,36 @@ namespace Service.User.Application
             user.PIN = cmd.pin;
             user.mobile_no = cmd.mobile_no;
             _repo.UpdateUser(user);
+        }
+
+        public void AddCredential(int usrid, UserAddCredentialCmd cmd)
+        {
+            var user = _repo.GetUser(usrid);
+            if(user is null)
+                throw new ArgumentNullException(nameof(user));
+            SendCmdAsync(user,cmd);
+        }
+
+        private void SendCmdAsync(Account usr,UserAddCredentialCmd cmd){
+            var factory = new ConnectionFactory() { HostName = "localhost",UserName = "user", Password = "password" };
+            using(var connection = factory.CreateConnection())
+            using(var channel = connection.CreateModel())
+            {
+                channel.ExchangeDeclare("demo.exchange", ExchangeType.Topic);  
+                channel.QueueDeclare(queue: "demo.queue.log",
+                                    durable: false,
+                                    exclusive: false,
+                                    autoDelete: false,
+                                    arguments: null);
+
+                string message = JsonConvert.SerializeObject(new {command = cmd, user = usr});
+                var body = Encoding.UTF8.GetBytes(message);
+
+                channel.BasicPublish(exchange: "demo.exchange",
+                                    routingKey: "demo.queue.*",
+                                    basicProperties: null,
+                                    body: body);
+            }
         }
     }
 }

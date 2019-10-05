@@ -32,3 +32,4 @@ D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\obj\Debug\netcoreapp3.0\Service.Crypto.Api.csproj.CopyComplete
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\obj\Debug\netcoreapp3.0\Service.Crypto.Api.dll
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\obj\Debug\netcoreapp3.0\Service.Crypto.Api.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\bin\Debug\netcoreapp3.0\RabbitMQ.Client.dll

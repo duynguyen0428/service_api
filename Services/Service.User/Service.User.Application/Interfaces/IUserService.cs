@@ -9,5 +9,6 @@ namespace Service.User.Application
          Account GetUser(string usrname,string pwd);
          Account GetUser(int id);
          void UpdateUser(int usrid,UserUpdateCommand cmd);
+        void AddCredential(int usrid,UserAddCredentialCmd cmd);
     }
 }

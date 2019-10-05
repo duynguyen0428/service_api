@@ -35,7 +35,7 @@ namespace Service.Crypto.Api
 
             services.AddSingleton<ICryptoDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<CryptoDatabaseSettings>>().Value);
-
+            services.AddHostedService<ConsumeRabbitMQHostedService>();
             services.AddControllers();
 
             services.AddScoped<ICryptoDbContext, CryptoDbContext>();

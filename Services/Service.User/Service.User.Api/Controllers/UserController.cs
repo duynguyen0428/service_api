@@ -27,7 +27,7 @@ namespace Service.User.Api.Controllers
             return _service.GetUser(id);
         }
         [HttpPost("user")]
-        public IActionResult Create(UserCreateCommand usrcmd)
+        public IActionResult Create([FromBody]UserCreateCommand usrcmd)
         {
             var user = _service.AddUser(usrcmd);
             return Ok(user);
@@ -36,6 +36,14 @@ namespace Service.User.Api.Controllers
         public IActionResult Update(int id,[FromBody]UserUpdateCommand cmd)
         {
             _service.UpdateUser(id,cmd);
+
+            return Ok();
+        }
+
+        [HttpPut("credential/add/{id}")]
+        public IActionResult AddCredential(int id,[FromBody]UserAddCredentialCmd cmd)
+        {
+            _service.AddCredential(id,cmd);
 
             return Ok();
         }
