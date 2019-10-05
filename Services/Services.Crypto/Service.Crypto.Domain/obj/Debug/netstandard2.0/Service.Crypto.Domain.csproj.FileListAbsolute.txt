@@ -6,3 +6,6 @@ D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\bin\Debug\netstandard2.0\Service.Crypto.Domain.pdb
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.dll
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\bin\Debug\netstandard2.0\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\bin\Debug\netstandard2.0\Infrastructure.Domain.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Domain\obj\Debug\netstandard2.0\Service.Crypto.Domain.csproj.CopyComplete

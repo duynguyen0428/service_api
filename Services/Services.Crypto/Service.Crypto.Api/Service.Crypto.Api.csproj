@@ -7,6 +7,8 @@
     <ProjectReference Include="..\Service.Crypto.Data\Service.Crypto.Data.csproj" />
     <ProjectReference Include="..\Service.Crypto.Domain\Service.Crypto.Domain.csproj" />
     <ProjectReference Include="..\Service.Crypto.Application\Service.Crypto.Application.csproj" />
+    <ProjectReference Include="..\..\..\Lib\Infrastructure\Infrastructure.Bus\Infrastructure.Bus.csproj" />
+    <ProjectReference Include="..\..\..\Lib\Infrastructure\Infrastructure.Domain\Infrastructure.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="5.1.1" />

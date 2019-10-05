@@ -1,0 +1,11 @@
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\obj\Debug\netstandard2.0\Infrastructure.Bus.csprojAssemblyReference.cache
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\obj\Debug\netstandard2.0\Infrastructure.Bus.AssemblyInfoInputs.cache
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\obj\Debug\netstandard2.0\Infrastructure.Bus.AssemblyInfo.cs
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\bin\Debug\netstandard2.0\Infrastructure.Bus.deps.json
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\bin\Debug\netstandard2.0\Infrastructure.Bus.dll
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\bin\Debug\netstandard2.0\Infrastructure.Bus.pdb
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\bin\Debug\netstandard2.0\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\bin\Debug\netstandard2.0\Infrastructure.Domain.pdb
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\obj\Debug\netstandard2.0\Infrastructure.Bus.csproj.CopyComplete
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\obj\Debug\netstandard2.0\Infrastructure.Bus.dll
+D:\Self\Development\dotnet\api_services\Lib\Infrastructure\Infrastructure.Bus\obj\Debug\netstandard2.0\Infrastructure.Bus.pdb

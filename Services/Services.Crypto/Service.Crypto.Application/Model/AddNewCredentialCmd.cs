@@ -1,6 +1,8 @@
+using Infrastructure.Domain;
+
 namespace Service.Crypto.Application
 {
-    public class AddNewCredentialCmd
+    public class AddNewCredentialCmd 
     {
         public string mobile_phone { get; set; }
         public int pin { get; set; }

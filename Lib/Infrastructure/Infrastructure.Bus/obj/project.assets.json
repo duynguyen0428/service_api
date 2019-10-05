@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Infrastructure.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        }
       }
     }
   },
@@ -171,15 +181,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Infrastructure.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure.Domain/Infrastructure.Domain.csproj",
+      "msbuildProject": "../Infrastructure.Domain/Infrastructure.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Infrastructure.Domain >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
     "C:\\Users\\dnguyen3\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -192,11 +209,13 @@
       "outputPath": "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Bus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\dnguyen3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -207,7 +226,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Domain\\Infrastructure.Domain.csproj": {
+              "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Domain\\Infrastructure.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -4,21 +4,28 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using Infrastructure.Bus;
+using Infrastructure.Domain;
+using Newtonsoft.Json;
+using Service.Crypto.Domain;
 public class ConsumeRabbitMQHostedService : BackgroundService  
 {  
-    private readonly ILogger _logger;  
+    private readonly ILogger _logger;
+    private readonly Infrastructure.Bus.IEventHandler _handler;
     private IConnection _connection;  
     private IModel _channel;  
   
-    public ConsumeRabbitMQHostedService(ILoggerFactory loggerFactory)  
+    public ConsumeRabbitMQHostedService(ILoggerFactory loggerFactory,Infrastructure.Bus.IEventHandler handler)  
     {  
         this._logger = loggerFactory.CreateLogger<ConsumeRabbitMQHostedService>();  
-        InitRabbitMQ();  
+        InitRabbitMQ();
+        _handler = handler;
     }  
   
     private void InitRabbitMQ()  
     {  
         var factory = new ConnectionFactory { HostName = "localhost",UserName = "user", Password = "password"  };  
+            _logger.LogInformation($"Init RabbitMQ");
   
         // create connection  
         _connection = factory.CreateConnection();  
@@ -42,10 +49,14 @@ public class ConsumeRabbitMQHostedService : BackgroundService
         consumer.Received += (ch, ea) =>  
         {  
             // received message  
-            var content = System.Text.Encoding.UTF8.GetString(ea.Body);  
-  
+            //  var content = JsonConvert.DeserializeObject<Event>(System.Text.Encoding.UTF8.GetString(ea.Body));  
+             var content = System.Text.Encoding.UTF8.GetString(ea.Body);  
+
+            // _logger.LogInformation($"consumer received {JsonConvert.SerializeObject(content)}");
+            var inevent = JsonConvert.DeserializeObject<AddCredentialEvent>(content);
+             _logger.LogInformation($"consumer received {JsonConvert.SerializeObject(inevent)}");
             // handle the received message  
-            HandleMessage(content);  
+            HandleMessage(inevent as Event);  
             _channel.BasicAck(ea.DeliveryTag, false);  
         };  
   
@@ -58,10 +69,12 @@ public class ConsumeRabbitMQHostedService : BackgroundService
         return Task.CompletedTask;  
     }  
   
-    private void HandleMessage(string content)  
+    private void HandleMessage(Event @event)  
     {  
         // we just print this message   
-        _logger.LogInformation($"consumer received {content}");  
+        _logger.LogInformation($"consumer received {JsonConvert.SerializeObject(@event)}");  
+        _handler.Handle(@event);
+
     }  
       
     private void OnConsumerConsumerCancelled(object sender, ConsumerEventArgs e)  {  }  

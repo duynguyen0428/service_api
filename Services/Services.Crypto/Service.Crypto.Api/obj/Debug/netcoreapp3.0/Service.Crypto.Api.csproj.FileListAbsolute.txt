@@ -33,3 +33,7 @@ D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\obj\Debug\netcoreapp3.0\Service.Crypto.Api.dll
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\obj\Debug\netcoreapp3.0\Service.Crypto.Api.pdb
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\bin\Debug\netcoreapp3.0\RabbitMQ.Client.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\bin\Debug\netcoreapp3.0\Infrastructure.Bus.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\bin\Debug\netcoreapp3.0\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\bin\Debug\netcoreapp3.0\Infrastructure.Bus.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Api\bin\Debug\netcoreapp3.0\Infrastructure.Domain.pdb

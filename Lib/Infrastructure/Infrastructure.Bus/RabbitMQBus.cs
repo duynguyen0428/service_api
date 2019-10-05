@@ -1,8 +1,10 @@
+using System.Threading.Tasks;
+using Infrastructure.Domain;
 namespace Infrastructure.Bus
 {
     public class RabbitMQBus : IEventBus
     {
-        public Task SendCommand<T>(T command) where T : Command{
+        public void SendCommand<T>(T command) where T : Command{
 
         }
 

@@ -2,7 +2,7 @@ namespace Infrastructure.Domain
 {
     public interface IEventBus
     {
-        Task SendCommand<T>(T command) where T : Command;
+        void SendCommand<T>(T command) where T : Command;
 
         void Publish<T>(T @event) where T : Event;
 

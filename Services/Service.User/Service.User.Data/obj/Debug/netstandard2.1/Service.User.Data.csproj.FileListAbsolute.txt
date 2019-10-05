@@ -9,3 +9,7 @@ D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\obj\Debug\netstandard2.1\Service.User.Data.csproj.CopyComplete
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\obj\Debug\netstandard2.1\Service.User.Data.dll
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\obj\Debug\netstandard2.1\Service.User.Data.pdb
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\bin\Debug\netstandard2.1\Infrastructure.Bus.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\bin\Debug\netstandard2.1\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\bin\Debug\netstandard2.1\Infrastructure.Bus.pdb
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Data\bin\Debug\netstandard2.1\Infrastructure.Domain.pdb

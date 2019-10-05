@@ -1,3 +1,5 @@
+using System;
+
 namespace Infrastructure.Domain
 {
     public abstract class Event: Message

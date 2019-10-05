@@ -13,3 +13,7 @@ D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.csproj.CopyComplete
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.dll
 D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\obj\Debug\netstandard2.0\Service.Crypto.Application.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Infrastructure.Bus.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Infrastructure.Domain.pdb
+D:\Self\Development\dotnet\api_services\Services\Services.Crypto\Service.Crypto.Application\bin\Debug\netstandard2.0\Infrastructure.Bus.pdb

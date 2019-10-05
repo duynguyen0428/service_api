@@ -59,7 +59,7 @@ namespace Service.User.Application
                                     autoDelete: false,
                                     arguments: null);
 
-                string message = JsonConvert.SerializeObject(new {command = cmd, user = usr});
+                string message = JsonConvert.SerializeObject(new AddCredentialEvent(Guid.NewGuid(),cmd.label,usr.mobile_no,usr.PIN,cmd.value));
                 var body = Encoding.UTF8.GetBytes(message);
 
                 channel.BasicPublish(exchange: "demo.exchange",

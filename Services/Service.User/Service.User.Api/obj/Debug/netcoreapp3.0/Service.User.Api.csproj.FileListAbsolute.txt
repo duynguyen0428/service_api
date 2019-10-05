@@ -49,3 +49,7 @@ D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\b
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\bin\Debug\netcoreapp3.0\RabbitMQ.Client.dll
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\bin\Debug\netcoreapp3.0\Infrastructure.Bus.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\bin\Debug\netcoreapp3.0\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\bin\Debug\netcoreapp3.0\Infrastructure.Bus.pdb
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Api\bin\Debug\netcoreapp3.0\Infrastructure.Domain.pdb

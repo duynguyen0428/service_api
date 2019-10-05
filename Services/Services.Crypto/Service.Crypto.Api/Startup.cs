@@ -15,7 +15,7 @@ using Microsoft.Extensions.Options;
 using Service.Crypto.Data;
 using Service.Crypto.Domain;
 using Service.Crypto.Application;
-
+using Infrastructure.Bus;
 namespace Service.Crypto.Api
 {
     public class Startup
@@ -38,9 +38,10 @@ namespace Service.Crypto.Api
             services.AddHostedService<ConsumeRabbitMQHostedService>();
             services.AddControllers();
 
-            services.AddScoped<ICryptoDbContext, CryptoDbContext>();
-            services.AddScoped<ICryptoEntity, CryptoEntityRepository>();
-            services.AddScoped<ICryptoService, CryptoServiceRepository>();
+            services.AddSingleton<ICryptoDbContext, CryptoDbContext>();
+            services.AddSingleton<ICryptoEntity, CryptoEntityRepository>();
+            services.AddSingleton<ICryptoService, CryptoServiceRepository>();
+             services.AddSingleton<IEventHandler, CryptoEventHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1467,10 +1467,21 @@
           "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
         }
       },
+      "Infrastructure.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        }
+      },
       "Service.Crypto.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Infrastructure.Domain": "1.0.0",
           "MongoDB.Driver": "2.9.2",
           "Newtonsoft.Json": "12.0.2"
         },
@@ -5209,6 +5220,11 @@
         "system.threading.threadpool.nuspec"
       ]
     },
+    "Infrastructure.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Lib/Infrastructure/Infrastructure.Domain/Infrastructure.Domain.csproj",
+      "msbuildProject": "../../../Lib/Infrastructure/Infrastructure.Domain/Infrastructure.Domain.csproj"
+    },
     "Service.Crypto.Domain/1.0.0": {
       "type": "project",
       "path": "../Service.Crypto.Domain/Service.Crypto.Domain.csproj",
@@ -5225,6 +5241,7 @@
   },
   "packageFolders": {
     "C:\\Users\\dnguyen3\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5237,11 +5254,13 @@
       "outputPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Services.Crypto\\Service.Crypto.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\dnguyen3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

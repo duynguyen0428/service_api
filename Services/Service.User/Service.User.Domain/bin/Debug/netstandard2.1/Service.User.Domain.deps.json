@@ -8,14 +8,41 @@
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
       "Service.User.Domain/1.0.0": {
+        "dependencies": {
+          "Infrastructure.Bus": "1.0.0",
+          "Infrastructure.Domain": "1.0.0"
+        },
         "runtime": {
           "Service.User.Domain.dll": {}
+        }
+      },
+      "Infrastructure.Bus/1.0.0": {
+        "dependencies": {
+          "Infrastructure.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.Bus.dll": {}
+        }
+      },
+      "Infrastructure.Domain/1.0.0": {
+        "runtime": {
+          "Infrastructure.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Service.User.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -11,10 +11,10 @@ namespace Service.Crypto.Api.Controllers
     [Route("[controller]")]
     public class CryptoCredentailController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<CryptoCredentailController> _logger;
         private readonly ICryptoService _service;
 
-        public CryptoCredentailController(ILogger<WeatherForecastController> logger, ICryptoService service)
+        public CryptoCredentailController(ILogger<CryptoCredentailController> logger, ICryptoService service)
         {
             _service = service;
             _logger = logger;

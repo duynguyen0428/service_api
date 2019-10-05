@@ -1477,6 +1477,29 @@
           "bin/placeholder/Crypto.dll": {}
         }
       },
+      "Infrastructure.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Infrastructure.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Bus.dll": {}
+        }
+      },
+      "Infrastructure.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        }
+      },
       "Service.Crypto.Data/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1496,6 +1519,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Infrastructure.Domain": "1.0.0",
           "MongoDB.Driver": "2.9.2",
           "Newtonsoft.Json": "12.0.2"
         },
@@ -5239,6 +5263,16 @@
       "path": "../../../Lib/Crypto/Crypto.csproj",
       "msbuildProject": "../../../Lib/Crypto/Crypto.csproj"
     },
+    "Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "path": "../../../Lib/Infrastructure/Infrastructure.Bus/Infrastructure.Bus.csproj",
+      "msbuildProject": "../../../Lib/Infrastructure/Infrastructure.Bus/Infrastructure.Bus.csproj"
+    },
+    "Infrastructure.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Lib/Infrastructure/Infrastructure.Domain/Infrastructure.Domain.csproj",
+      "msbuildProject": "../../../Lib/Infrastructure/Infrastructure.Domain/Infrastructure.Domain.csproj"
+    },
     "Service.Crypto.Data/1.0.0": {
       "type": "project",
       "path": "../Service.Crypto.Data/Service.Crypto.Data.csproj",
@@ -5253,6 +5287,8 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Crypto >= 1.0.0",
+      "Infrastructure.Bus >= 1.0.0",
+      "Infrastructure.Domain >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Service.Crypto.Data >= 1.0.0",
       "Service.Crypto.Domain >= 1.0.0"
@@ -5260,6 +5296,7 @@
   },
   "packageFolders": {
     "C:\\Users\\dnguyen3\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5272,11 +5309,13 @@
       "outputPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Services.Crypto\\Service.Crypto.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\dnguyen3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -5290,6 +5329,12 @@
           "projectReferences": {
             "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Crypto\\Crypto.csproj": {
               "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Crypto\\Crypto.csproj"
+            },
+            "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Bus\\Infrastructure.Bus.csproj": {
+              "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Bus\\Infrastructure.Bus.csproj"
+            },
+            "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Domain\\Infrastructure.Domain.csproj": {
+              "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Domain\\Infrastructure.Domain.csproj"
             },
             "D:\\Self\\Development\\dotnet\\api_services\\Services\\Services.Crypto\\Service.Crypto.Data\\Service.Crypto.Data.csproj": {
               "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Services.Crypto\\Service.Crypto.Data\\Service.Crypto.Data.csproj"

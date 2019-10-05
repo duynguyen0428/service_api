@@ -1,14 +1,53 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "Infrastructure.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Infrastructure.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Bus.dll": {}
+        }
+      },
+      "Infrastructure.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "path": "../../../Lib/Infrastructure/Infrastructure.Bus/Infrastructure.Bus.csproj",
+      "msbuildProject": "../../../Lib/Infrastructure/Infrastructure.Bus/Infrastructure.Bus.csproj"
+    },
+    "Infrastructure.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Lib/Infrastructure/Infrastructure.Domain/Infrastructure.Domain.csproj",
+      "msbuildProject": "../../../Lib/Infrastructure/Infrastructure.Domain/Infrastructure.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "Infrastructure.Bus >= 1.0.0",
+      "Infrastructure.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\dnguyen3\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -21,11 +60,13 @@
       "outputPath": "D:\\Self\\Development\\dotnet\\api_services\\Services\\Service.User\\Service.User.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\dnguyen3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -36,7 +77,14 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Bus\\Infrastructure.Bus.csproj": {
+              "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Bus\\Infrastructure.Bus.csproj"
+            },
+            "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Domain\\Infrastructure.Domain.csproj": {
+              "projectPath": "D:\\Self\\Development\\dotnet\\api_services\\Lib\\Infrastructure\\Infrastructure.Domain\\Infrastructure.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -48,21 +96,10 @@
     "frameworks": {
       "netstandard2.1": {
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "NETStandard.Library": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

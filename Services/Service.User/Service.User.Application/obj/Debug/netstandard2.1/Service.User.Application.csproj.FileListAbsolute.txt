@@ -11,3 +11,7 @@ D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Appli
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Application\obj\Debug\netstandard2.1\Service.User.Application.csproj.CopyComplete
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Application\obj\Debug\netstandard2.1\Service.User.Application.dll
 D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Application\obj\Debug\netstandard2.1\Service.User.Application.pdb
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Application\bin\Debug\netstandard2.1\Infrastructure.Bus.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Application\bin\Debug\netstandard2.1\Infrastructure.Domain.dll
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Application\bin\Debug\netstandard2.1\Infrastructure.Bus.pdb
+D:\Self\Development\dotnet\api_services\Services\Service.User\Service.User.Application\bin\Debug\netstandard2.1\Infrastructure.Domain.pdb

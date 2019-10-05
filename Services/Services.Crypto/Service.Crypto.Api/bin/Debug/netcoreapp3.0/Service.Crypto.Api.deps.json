@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v3.0": {
       "Service.Crypto.Api/1.0.0": {
         "dependencies": {
+          "Infrastructure.Bus": "1.0.0",
+          "Infrastructure.Domain": "1.0.0",
           "RabbitMQ.Client": "5.1.1",
           "Service.Crypto.Application": "1.0.0",
           "Service.Crypto.Data": "1.0.0",
@@ -1165,9 +1167,30 @@
           "Crypto.dll": {}
         }
       },
+      "Infrastructure.Bus/1.0.0": {
+        "dependencies": {
+          "Infrastructure.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.Bus.dll": {}
+        },
+        "compile": {
+          "Infrastructure.Bus.dll": {}
+        }
+      },
+      "Infrastructure.Domain/1.0.0": {
+        "runtime": {
+          "Infrastructure.Domain.dll": {}
+        },
+        "compile": {
+          "Infrastructure.Domain.dll": {}
+        }
+      },
       "Service.Crypto.Application/1.0.0": {
         "dependencies": {
           "Crypto": "1.0.0",
+          "Infrastructure.Bus": "1.0.0",
+          "Infrastructure.Domain": "1.0.0",
           "Service.Crypto.Data": "1.0.0",
           "Service.Crypto.Domain": "1.0.0"
         },
@@ -1193,6 +1216,7 @@
       },
       "Service.Crypto.Domain/1.0.0": {
         "dependencies": {
+          "Infrastructure.Domain": "1.0.0",
           "MongoDB.Driver": "2.9.2",
           "Newtonsoft.Json": "12.0.2"
         },
@@ -3527,6 +3551,16 @@
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
     },
     "Crypto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
